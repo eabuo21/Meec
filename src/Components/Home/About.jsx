@@ -9,10 +9,9 @@ const About = ({ icon, title, description }) => {
     <div className="main-container  flex flex-col  gap-2 justify-center items-center    md:flex-row md:gap-4   ">
       <Link to="#">
         <section className="items-container      flex flex-col gap-2 p-2 justify-center items-center     w-[300px]  h-[300px] ">
-          <img
-            src={icon}
-            className="w-auto h-auto  flex  justify-center items-center  bg-blue-950 rounded-[50%]  w-[60px] h-[60px]"
-          />
+           <div className="icon-awesomefont-container  flex justify-center items-center mx-auto    border border-blue-950 rounded-[50%] p-2 ">
+          <FontAwesomeIcon icon={icon}  className="text-4xl font-bold text-blue-950" />
+        </div>
 
           <p className="text-black font-serif text-xl  font-semibold text-center     md:text-2xl ">
             {title}
@@ -21,6 +20,7 @@ const About = ({ icon, title, description }) => {
           <p className="text-black font-serif text-base  font-normal text-center     md:text-2xl ">
             {description}
           </p>
+          <div className=" w-[50px] h-[1px] bg-blue-950 border-2 border-blue-950 flex justify-enter items-center mx-auto"></div>
         </section>
       </Link>
     </div>
