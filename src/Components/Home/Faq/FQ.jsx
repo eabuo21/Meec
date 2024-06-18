@@ -8,16 +8,30 @@ import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function AccordionExpandIcon() {
   return (
-    <div className="   px-4   h-[250px]  overflow-y-auto  md:h-auto  md:w-[600px]">
+    <div
+      data-aos="fade-in"
+      data-aos-easing="ease-in"
+      data-aos-duration="2500"
+      data-aos-delay="50"
+      data-aos-anchor-placement="top-down"
+      data-aos-throttle="true"
+      className="   w-full   h-[250px]  overflow-y-auto  md:h-auto  lg:w-[600px]   md:w-[400px]"
+    >
       <Accordion>
-        <AccordionSummary className="border-2 border-blue-700"
-          expandIcon={<FontAwesomeIcon icon={faChevronDown}  className="bg-blue-950  text-white  rounded-[50%] p-2"/>}
-          aria-controls="panel1-content"  
+        <AccordionSummary
+          className="border-2 border-blue-700"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >Accordion 1</Typography>
-        </AccordionSummary >
-        <AccordionDetails  className="bg-blue-950 text-white ">
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white ">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -25,18 +39,21 @@ export default function AccordionExpandIcon() {
         </AccordionDetails>
       </Accordion>
 
-
-
-
       <Accordion>
-        <AccordionSummary className="border-2 border-blue-700"
-          expandIcon={<FontAwesomeIcon icon={faChevronDown}  className="bg-blue-950  text-white  rounded-[50%] p-2"/>}
-          aria-controls="panel1-content"  
+        <AccordionSummary
+          className="border-2 border-blue-700"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >Accordion 1</Typography>
-        </AccordionSummary >
-        <AccordionDetails  className="bg-blue-950 text-white ">
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white ">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -44,18 +61,21 @@ export default function AccordionExpandIcon() {
         </AccordionDetails>
       </Accordion>
 
-
-
-
       <Accordion>
-        <AccordionSummary className="border-2 border-blue-700"
-          expandIcon={<FontAwesomeIcon icon={faChevronDown}  className="bg-blue-950  text-white  rounded-[50%] p-2"/>}
-          aria-controls="panel1-content"  
+        <AccordionSummary
+          className="border-2 border-blue-700"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >Accordion 1</Typography>
-        </AccordionSummary >
-        <AccordionDetails  className="bg-blue-950 text-white ">
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white ">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -63,19 +83,21 @@ export default function AccordionExpandIcon() {
         </AccordionDetails>
       </Accordion>
 
-
-
-
-
       <Accordion>
-        <AccordionSummary className="border-2 border-blue-700"
-          expandIcon={<FontAwesomeIcon icon={faChevronDown}  className="bg-blue-950  text-white  rounded-[50%] p-2"/>}
-          aria-controls="panel1-content"  
+        <AccordionSummary
+          className="border-2 border-blue-700"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >Accordion 1</Typography>
-        </AccordionSummary >
-        <AccordionDetails  className="bg-blue-950 text-white ">
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white ">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -83,19 +105,21 @@ export default function AccordionExpandIcon() {
         </AccordionDetails>
       </Accordion>
 
-
-
-
-
       <Accordion>
-        <AccordionSummary className="border-2 border-blue-700"
-          expandIcon={<FontAwesomeIcon icon={faChevronDown}  className="bg-blue-950  text-white  rounded-[50%] p-2"/>}
-          aria-controls="panel1-content"  
+        <AccordionSummary
+          className="border-2 border-blue-700"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >Accordion 1</Typography>
-        </AccordionSummary >
-        <AccordionDetails  className="bg-blue-950 text-white ">
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white ">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -103,26 +127,27 @@ export default function AccordionExpandIcon() {
         </AccordionDetails>
       </Accordion>
 
-
-
-
-
       <Accordion>
-        <AccordionSummary className="border-2 border-blue-700"
-          expandIcon={<FontAwesomeIcon icon={faChevronDown}  className="bg-blue-950  text-white  rounded-[50%] p-2"/>}
-          aria-controls="panel1-content"  
+        <AccordionSummary
+          className="border-2 border-blue-700"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >Accordion 1</Typography>
-        </AccordionSummary >
-        <AccordionDetails  className="bg-blue-950 text-white ">
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white ">
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
       </Accordion>
-
     </div>
   );
 }

@@ -12,6 +12,8 @@ import Testimonials from "../Components/Home/Testimonials/Testimonials";
 import FaqBg from "../assets/images/background.png";
 import FQ from "../Components/Home/Faq/FQ";
 import FQ2 from "../Components/Home/Faq/FQ2";
+import Cs1 from "../Components/Home/CSR/Cs1";
+import Cs2 from "../Components/Home/CSR/Cs2";
 
 const LandingPage = () => {
   const handleScroll = () => {
@@ -22,7 +24,6 @@ const LandingPage = () => {
     handleScroll();
   }, []);
 
-  
   const navigate = useNavigate();
 
   return (
@@ -47,10 +48,17 @@ const LandingPage = () => {
           <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
             Solutions
           </h2>
-          <div className=" flex flex-col  gap-2    md:gap-12  pt-12  md:flex-row gap-5 justify-start px-5 items-start  ">
+          <div 
+          className=" flex flex-col  gap-2    md:gap-12  pt-12  md:flex-row gap-5 justify-start px-5 items-start  ">
             <FeaturedServices1 />
             <FeaturedServices2 />
             <img
+                    data-aos="zoom-in"
+                    data-aos-easing="ease linear"
+                    data-aos-duration="2500"
+                    data-aos-delay="50"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-throttle="true"
               src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_software_developer.jpg"
               className="  hidden md:flex w-[30%] h-[300px]"
             />
@@ -78,7 +86,7 @@ const LandingPage = () => {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
-          className="services-=section   p-5 mx-auto   h-[fixed] w-full  relative top-[7rem]  gap-8"
+          className="services-=section  pb-16  p-5 mx-auto   h-[fixed] w-full  relative top-[7rem]  gap-8"
         >
           <h2 className="text-center font-bold text-white   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
             FAQ
@@ -87,13 +95,20 @@ const LandingPage = () => {
             <FQ />
             <FQ2 />
           </div>
-         
+        </section>
+
+        <section className="services-section    p-6   h-[fixed] w-full pb-12 bg-[silk]  relative top-[4rem]   md:shadow-none  ">
+          <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  relative top-7 pt-8   flex justify-center items-center ">
+            Talk to an Expert
+          </h2>
+          <div className="flex flex-col gap-4 relative top-[4rem]  -fixed  p-3    shadow-current shadow-md    md:shadow-none     justify-center items-center    md:grid md:grid-cols-2 md:gap-6 md:justify-center md:items-center  ">
+            <Cs2 />
+            <Cs1 />
+          </div>
         </section>
 
         <section className="services-=section   p-3   h-[400px] w-full pb-8 bg-white  ">
-          <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
-            DOm
-          </h2>
+          <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   flex justify-center items-center "></h2>
         </section>
       </div>
     </>

@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-
+import Feat from "./Components/Feat/Footer";
 import Nav from "../src/Components/Nav/Navigation";
 import { HashLoader } from "react-spinners";
 import { ToastContainer } from "react-toastify";
@@ -44,10 +44,13 @@ function App() {
           </section>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            
           </Routes>
           <section className="notification-section">
             <ToastContainer />
+          </section>
+
+          <section className="navigation-container   sticky top-0 z-50 ">
+            <Feat />
           </section>
         </>
       )}

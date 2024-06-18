@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const About = ({ icon, title, description }) => {
   return (
-    <div className="main-container  flex flex-col  gap-2 justify-center items-center    md:flex-row md:gap-4   ">
+    <div className="main-container  flex flex-col  gap-2 justify-center items-center  lg:gap-4   lg:w-auto  md:w-[250px]  md:flex-row md:gap-2  ">
       <Link to="#">
         <section className="items-container      flex flex-col gap-2 p-2 justify-center items-center     w-[300px]  h-[300px] ">
           <div className="icon-awesomefont-container  flex justify-center items-center mx-auto    border border-blue-950 rounded-[70%] p-2 w-[55px] bg-blue-950 ">

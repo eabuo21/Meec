@@ -89,6 +89,11 @@ const Testimonial = () => {
   return (
     <>
       <div
+        data-aos="fade-in"
+        data-aos-easing="ease-in"
+        data-aos-duration="2500"
+        data-aos-delay="50"
+        data-aos-throttle="true"
         className="main-slider-container p-1 flex flex-col justify-center items-center pb-8
       
       "
