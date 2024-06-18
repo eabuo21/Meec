@@ -16,9 +16,15 @@ const AccordionItem = ({ title, text }) => {
         <span className="font-semibold">{title}</span>
         <span>
           {isOpen ? (
-            <FontAwesomeIcon icon={faChevronUp}   className="border-2 border-blue-950 p-2 rounded-full" />
+            <FontAwesomeIcon
+              icon={faChevronUp}
+              className="border-2 border-blue-950 p-2 rounded-full"
+            />
           ) : (
-            <FontAwesomeIcon icon={faChevronDown}   className="border-2 border-blue-950 p-2 rounded-full" />
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="border-2 border-blue-950 p-2 rounded-full"
+            />
           )}
         </span>
       </div>
@@ -33,7 +39,7 @@ const AccordionItem = ({ title, text }) => {
 
 const Accordion = () => {
   return (
-    <div className=" border-t border-t-blue-950 mx-auto w-[80%] h-[300px]  overflow-y-scroll    md:overflow-hidden  md:h-auto p-2">
+    <div className=" border-t border-t-blue-950 mx-auto w-full  h-[300px]  overflow-y-scroll    md:overflow-hidden  md:h-auto p-2">
       <AccordionItem title="Products & Services 1" text="Description 1" />
       <AccordionItem title="Products & Services 2" text="Description 2" />
       <AccordionItem title="Products & Services 3" text="Description 3" />
