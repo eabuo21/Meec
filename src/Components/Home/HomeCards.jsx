@@ -4,14 +4,20 @@
 
 import React from "react";
 import HomeCard from "../../Components/Home/HomeCard";
-import { faCloud, faCode, faTicket, faHeadSideCoughSlash, faDesktop, faMicrochip } from "@fortawesome/free-solid-svg-icons";
-
+import {
+  faCloud,
+  faCode,
+  faTicket,
+  faHeadSideCoughSlash,
+  faDesktop,
+  faMicrochip,
+} from "@fortawesome/free-solid-svg-icons";
 
 function ArrayItems() {
   const Cards = [
     {
       box: "white",
-      icon: "https://meectech.000webhostapp.com/assets/cloud1-DwkoUgqn.webp",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3yznrKjqejzFu9EZyqO_gI48V6Y2rXeakRg&s",
       title: " Website Design & Development",
       awesomefont: faCode,
       description:
@@ -22,9 +28,9 @@ function ArrayItems() {
     },
     {
       box: "white",
-      icon: "https://meectech.000webhostapp.com/assets/transformation-B0X5jWHv.webp",
+      icon: "https://assets-global.website-files.com/646e120d6d1b3e437d8b5803/6501be260bc9af1ab92f7aa5_Depositphotos_68338445_L%20(1).jpg",
       title: "Cloud Solutions",
-       awesomefont: faCloud,
+      awesomefont: faCloud,
       description:
         "Innovative cloud services for seamless business operations.",
       designedline: "",
@@ -33,9 +39,9 @@ function ArrayItems() {
     },
     {
       box: "white",
-      icon: "https://meectech.000webhostapp.com/assets/transformation-B0X5jWHv.webp",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnGxFbbDr7PUQnRxcIWu8zGsb4tMBIai9Vco-C9GgzVs2KER6Yc5SSQv2kcrjOlPl9y90&usqp=CAU.webp",
       title: "Technical Support ",
-       awesomefont: faTicket,
+      awesomefont: faTicket,
       description: "Reliable tech support ensuring your systems run smoothly",
       designedline: "",
       route: "",
@@ -43,9 +49,9 @@ function ArrayItems() {
     },
     {
       box: "white",
-      icon: "https://meectech.000webhostapp.com/assets/transformation-B0X5jWHv.webp",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCjsUhVuuQ26-qJJ3EguhRubInNHIVm1ldg&s",
       title: "Virtual Assistance",
-       awesomefont: faHeadSideCoughSlash,
+      awesomefont: faHeadSideCoughSlash,
       description: "Professional virtual assistance to boost your productivity",
       designedline: "",
       route: "",
@@ -53,9 +59,9 @@ function ArrayItems() {
     },
     {
       box: "white",
-      icon: "https://meectech.000webhostapp.com/assets/transformation-B0X5jWHv.webp",
+      icon: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
       title: "Sys & Net Administration",
-       awesomefont: faDesktop,
+      awesomefont: faDesktop,
       description: "Efficient system and network management for your business",
       designedline: "",
       route: "",
@@ -63,9 +69,9 @@ function ArrayItems() {
     },
     {
       box: "white",
-      icon: "https://meectech.000webhostapp.com/assets/transformation-B0X5jWHv.webp",
+      icon: "https://assets.datamation.com/uploads/2023/08/dm08162023-data-migration-best-practices.png",
       title: "Data Migration & Integration",
-       awesomefont: faMicrochip,
+      awesomefont: faMicrochip,
       description:
         "Secure data migration and integration for seamless transitions",
       designedline: "",

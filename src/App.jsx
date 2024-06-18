@@ -3,8 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Short from "../src/Pages/Shortener";
-import About from "../src/Pages/AboutDev";
+
 import Nav from "../src/Components/Nav/Navigation";
 import { HashLoader } from "react-spinners";
 import { ToastContainer } from "react-toastify";
@@ -45,8 +44,7 @@ function App() {
           </section>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/shortener" element={<Short />} />
-            <Route path="/about" element={<About />} />
+            
           </Routes>
           <section className="notification-section">
             <ToastContainer />

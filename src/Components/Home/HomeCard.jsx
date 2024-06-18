@@ -25,7 +25,7 @@ const HomeC = ({ box, icon, title, description, route, awesomefont }) => {
         <div className="icon-awesomefont-container  flex justify-center items-center mx-auto    border border-blue-950 rounded-[50%] p-2 ">
           <FontAwesomeIcon icon={awesomefont}  className="text-2xl font-bold text-blue-950" />
         </div>
-        <p className="description_text text-sm font-normal font-passion text-black  text-center   md:text-base ">
+        <p className="description_text text-sm font-normal font-passion text-black  text-center   md:text-xl ">
           {description}
         </p>
         <button className=" bg-blue-950   w-full p-2 rounded-md text-white  ">

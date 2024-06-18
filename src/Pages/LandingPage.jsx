@@ -3,10 +3,10 @@
 import React, { useEffect } from "react";
 import Hero from "../Components/Home/Hero";
 import HomeCards from "../Components/Home/HomeCards";
-import Services from "../Components/Home/Services";
 import AboutCards from "../Components/Home/AboutCards";
 import FeaturedServices1 from "../Components/Home/featured services/Featuresarrays";
 import FeaturedServices2 from "../Components/Home/featured services/Featuresarrays2";
+import Clientele from "../Components/Home/Clientele/Clientele";
 
 const LandingPage = () => {
   const handleScroll = () => {
@@ -42,15 +42,18 @@ const LandingPage = () => {
           <div className=" flex flex-col  gap-2    md:gap-12  pt-12  md:flex-row gap-5 justify-start px-5 items-start  ">
             <FeaturedServices1 />
             <FeaturedServices2 />
-            <img src="https://meectech.000webhostapp.com/assets/cloud-BPWQXJxz.webp"
-            className="  hidden md:flex w-[30%] h-[30%]"/>
+            <img
+              src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_software_developer.jpg"
+              className="  hidden md:flex w-[30%] h-[300px]"
+            />
           </div>
         </section>
 
-        <section className="services-=section   p-3   h-[400px] w-full pb-8 bg-white  pt-12 flex justify-center items-center ">
-          <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
+        <section className="services-=section   flex flex-col  p-3   h-[fixed] w-full pb-8 bg-white  pt-12 flex justify-center items-center ">
+          <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   pb-8  flex justify-center items-center ">
             Clientele
           </h2>
+          <Clientele />
         </section>
 
         <section className="services-=section   p-3   h-[400px] w-full pb-8 bg-white  ">
