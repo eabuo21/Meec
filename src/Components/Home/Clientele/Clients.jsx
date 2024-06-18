@@ -11,7 +11,7 @@ const Clients = ({ box, image }) => {
       }}
     >
       <img
-        className="rounded-[50%] flex flex-col justify-center items-center p-2 w-[100px] h-[100px]  shadow-current shadow-md  "
+        className="rounded-[50%] flex flex-col justify-center items-center p-2 w-[100px] h-[100px]  shadow-current shadow-md   bg-white"
         src={image}
         alt="client-image"
       />

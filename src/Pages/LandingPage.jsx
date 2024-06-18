@@ -1,12 +1,17 @@
 /** @format */
 
 import React, { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Hero from "../Components/Home/Hero";
 import HomeCards from "../Components/Home/HomeCards";
 import AboutCards from "../Components/Home/AboutCards";
 import FeaturedServices1 from "../Components/Home/featured services/Featuresarrays";
 import FeaturedServices2 from "../Components/Home/featured services/Featuresarrays2";
 import Clientele from "../Components/Home/Clientele/Clientele";
+import Testimonials from "../Components/Home/Testimonials/Testimonials";
+import FaqBg from "../assets/images/background.png";
+import FQ from "../Components/Home/Faq/FQ";
+import FQ2 from "../Components/Home/Faq/FQ2";
 
 const LandingPage = () => {
   const handleScroll = () => {
@@ -16,6 +21,9 @@ const LandingPage = () => {
   useEffect(() => {
     handleScroll();
   }, []);
+
+  
+  const navigate = useNavigate();
 
   return (
     <>
@@ -59,6 +67,32 @@ const LandingPage = () => {
         <section className="services-=section   p-3   h-[400px] w-full pb-8 bg-white  ">
           <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
             Testimonials
+          </h2>
+          <Testimonials />
+        </section>
+
+        <section
+          style={{
+            background: ` linear-gradient(rgba(0, 0, 5, 0.6), rgba(0, 0, 5, 0.6)), url(${FaqBg})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+          className="services-=section   p-5 mx-auto   h-[fixed] w-full  relative top-[7rem]  gap-8"
+        >
+          <h2 className="text-center font-bold text-white   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
+            FAQ
+          </h2>
+          <div className="flex flex-col gap-9 justify-center items-start    md:grid md:grid-cols-2 md:gap-4 p-2">
+            <FQ />
+            <FQ2 />
+          </div>
+         
+        </section>
+
+        <section className="services-=section   p-3   h-[400px] w-full pb-8 bg-white  ">
+          <h2 className="text-center font-bold text-blue-950   text-xl     md:text-4xl  pt-8   flex justify-center items-center ">
+            DOm
           </h2>
         </section>
       </div>
