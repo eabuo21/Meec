@@ -18,7 +18,7 @@ function ArrayItems() {
     {
       box: "white",
       icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3yznrKjqejzFu9EZyqO_gI48V6Y2rXeakRg&s",
-      title: " Website Design & Development",
+      title: " Web & App Dev",
       awesomefont: faCode,
       description:
         "Crafting dynamic and responsive sites tailored to your needs",
@@ -70,7 +70,7 @@ function ArrayItems() {
     {
       box: "white",
       icon: "https://assets.datamation.com/uploads/2023/08/dm08162023-data-migration-best-practices.png",
-      title: "Data Migration & Integration",
+      title: " Cloud Data Migration ",
       awesomefont: faMicrochip,
       description:
         "Secure data migration and integration for seamless transitions",

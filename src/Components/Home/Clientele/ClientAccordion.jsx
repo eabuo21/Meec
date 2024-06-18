@@ -10,7 +10,7 @@ const AccordionItem = ({ title, text }) => {
   return (
     <div className="border-b border-blue-700 ">
       <div
-        className="flex justify-between w-full p-4 text-left focus:outline-none"
+        className="flex justify-between w-full p-4 text-left focus:outline-none pointer"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="font-semibold">{title}</span>
@@ -33,7 +33,7 @@ const AccordionItem = ({ title, text }) => {
 
 const Accordion = () => {
   return (
-    <div className=" border-t border-t-blue-950 mx-auto w-full h-[300px]  overflow-y-scroll    md:overflow-hidden  md:h-auto p-2">
+    <div className=" border-t border-t-blue-950 mx-auto w-[80%] h-[300px]  overflow-y-scroll    md:overflow-hidden  md:h-auto p-2">
       <AccordionItem title="Products & Services 1" text="Description 1" />
       <AccordionItem title="Products & Services 2" text="Description 2" />
       <AccordionItem title="Products & Services 3" text="Description 3" />
