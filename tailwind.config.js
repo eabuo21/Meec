@@ -6,16 +6,14 @@ module.exports = {
       fontFamily: {
         sans: ["Open Sans"],
         "open-sans": ["Open Sans"],
-        "pap": ["papyrus"],
-        "cur": ["cursive"],
-        "ger": ["georgia"],
-        
-      
+        "pap": ["Papyrus"],
+        "cur": ["Cursive"],
+        "ger": ["Georgia"],
       },
 
       listStyleType: {
-        "decimal-zero": ["decimal-leading-zero"],
-        "decimal-number": ["1,"]
+        "decimal-zero": "decimal-leading-zero",
+        "decimal-number": "1",
       },
 
       colors: {
@@ -33,14 +31,13 @@ module.exports = {
         secondary: {
           100: "#303030",
         },
-        
-    multiColor:{
-    red: "#DC0404",
-        black: "#303030",
-        gold: "#F5AD32",
-  
+        multiColor: {
+          red: "#DC0404",
+          black: "#303030",
+          gold: "#F5AD32",
         },
       },
+
       backgroundColor: {
         darkBg: "#1D1D1D",
         primary_yellow: "#F5AD32",
@@ -49,8 +46,6 @@ module.exports = {
         sky_blue: "#C4E2ED",
         primary_pink: "#EBD7E5",
         dance_blue: "#F6F6F2",
-
-
       },
     },
   },

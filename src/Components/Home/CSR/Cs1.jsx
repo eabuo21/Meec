@@ -6,14 +6,15 @@ const CustomModal = ({ isOpen, onClose, url }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center  ">
       <div className="bg-white p-4 rounded-lg   w-[400px]  z-50 relative top-[3rem]   md:w-[500px] ">
-        <button onClick={onClose} className="text-red-500">Close</button>
+        <button onClick={onClose} className="text-red-500">
+          Close
+        </button>
         <iframe
           src={url}
           width="100%"
           height="100%"
-          style={{ border: 'none', minHeight: '80vh' }}
+          style={{ border: "none", minHeight: "80vh" }}
           title="Calendly"
-          
         />
       </div>
     </div>
@@ -37,7 +38,8 @@ const Cs1 = () => {
         Looking for expert consultancy services?
       </h1>
       <h3 className="sub-csr-text text-black text-base font-semibold font-dm text-center md:text-xl">
-        Explore customized solutions with our highly skilled team of professionals
+        Explore customized solutions with our highly skilled team of
+        professionals
       </h3>
       <button
         className="book-consultant-button bg-blue-950 text-white font-bold font-passion p-4 w-[30vh] text-center flex justify-center items-center"
