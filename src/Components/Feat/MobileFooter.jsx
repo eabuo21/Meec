@@ -15,6 +15,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
+
 const AccordionContainer = styled("div")({
   width: "100%",
 });
@@ -350,7 +351,23 @@ export default function CustomizedAccordions() {
             <Typography className="text-white">Location</Typography>
           </CustomAccordionSummary>
           <CustomAccordionDetails className="bg-gray">
-            <Typography></Typography>
+            <Typography className="flex flex-col justify-center items-center gap-5 p-2 ">
+              <p className="text-base font-bold text-blue-950 font-passion">
+                Need Direction ?
+              </p>
+              <section className="flex flex-col  ">
+                <div className="   flex flex-col w-full h-[fixed] justify-start items-center">
+                  <iframe
+                    className="w-full    h-[300px]"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=Emeka%20ayaoko%20street%20abuja&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameBorder="0"
+                    marginHeight="100"
+                    marginWidth="100"
+                  ></iframe>
+                </div>
+              </section>
+            </Typography>
           </CustomAccordionDetails>
         </CustomAccordion>
       </AccordionContainer>
