@@ -72,7 +72,7 @@ export default function CustomizedAccordions() {
   const angleStep = Math.PI / (icons.length - 1); // Calculate the angle step
 
   return (
-    <div className="  flex   flex-col gap-5    h-[fixed] ">
+    <div className="  flex   flex-col gap-5    h-[fixed]  md:hidden">
       <section className="logo-section flex justify-start items-start px-2">
         <Link to="">
           <img src="" className="" alt="logo-image"></img>
