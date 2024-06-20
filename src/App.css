@@ -11,7 +11,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 999; /* Ensure the loader is on top of other content */
+  z-index: 999; 
 }
 
 /* Center the HashLoader within the container */
@@ -136,13 +136,38 @@ li {
   transform: translate(0, 0);
 }
 
-:root{
+:root {
   --primary-color: Royal Purple;
   --secondary-color: gold;
   --neutral-color: white;
 }
 
+/* Custom styles for Calendly modal */
+.calendly-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: Adds a semi-transparent background */
+}
 
+.calendly-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+/* styles for cs2 image on mobile background   */
 
 
 

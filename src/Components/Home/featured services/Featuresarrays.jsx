@@ -56,7 +56,14 @@ function Feature() {
 
   return (
     <>
-      <div className="main-container  flex flex-col gap-2 ">
+      <div
+      data-aos="fade-in"
+      data-aos-easing="ease-in"
+      data-aos-duration="2000"
+      data-aos-delay="50"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-throttle="true"
+      className="main-container  flex flex-col gap-2 ">
         {cards.map((card, index) => (
           <div key={index} className="  ">
             <Features  text={card.text} />
