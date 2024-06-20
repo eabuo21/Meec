@@ -7,52 +7,64 @@ function ClientsCards() {
   const Cards = [
     {
       box: "white",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
 
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
     {
       box: "",
-      image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+      image:
+        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
     },
   ];
 
