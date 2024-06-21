@@ -1,0 +1,75 @@
+/* ./src/assets/styles/HerroButton.css */
+
+.hover-effect-1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hover-effect-1::before,
+  .hover-effect-1::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: white; /* blue-950 color */
+    transition: all 1s ease-in-out;
+    z-index: 1;
+  }
+  
+  .hover-effect-1::before {
+    top: 0;
+    left: -50%;
+  }
+  
+  .hover-effect-1::after {
+    top: 0;
+    right: -50%;
+  }
+  
+  .hover-effect-1:hover::before {
+    left: 0;
+  }
+  
+  .hover-effect-1:hover::after {
+    right: 0;
+  }
+  
+  .hover-effect-2 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hover-effect-2::before,
+  .hover-effect-2::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: rgb(4, 6, 130); /* Adjust color if needed */
+    transition: all 1s ease-in-out;
+    z-index: 1;
+  }
+  
+  .hover-effect-2::before {
+    top: 0;
+    left: -50%;
+  }
+  
+  .hover-effect-2::after {
+    top: 0;
+    right: -50%;
+  }
+  
+  .hover-effect-2:hover::before {
+    left: 0;
+  }
+  
+  .hover-effect-2:hover::after {
+    right: 0;
+  }
+  
+  .link-text {
+    position: relative;
+    z-index: 2;
+  }
+  

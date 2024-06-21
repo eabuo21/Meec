@@ -8,6 +8,7 @@ import Nav from "../src/Components/Nav/Navigation";
 import { HashLoader } from "react-spinners";
 import { ToastContainer } from "react-toastify";
 import LandingPage from "./Pages/LandingPage";
+import Successful from "./Components/Home/Successful";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -44,6 +45,7 @@ function App() {
           </section>
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/success" element={<Successful />} />
           </Routes>
           <section className="notification-section">
             <ToastContainer />

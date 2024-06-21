@@ -84,7 +84,7 @@ function ArrayItems() {
     <React.Fragment>
       <div className="main-cards-container flex overflow-x-auto justify-between items-start gap-4 md:grid md:grid-cols-3 md:gap-12  ">
         {Cards.map((card, index) => (
-          <div key={index} className="items-alignment shadow-current shadow-xl">
+          <div key={index} className="items-alignment shadow-current shadow-xl   ">
             <HomeCard
               box={card.box}
               icon={card.icon}

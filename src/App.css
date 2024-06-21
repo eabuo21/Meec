@@ -1,5 +1,10 @@
 /** @format */
 
+
+body{
+  background: whitesmoke;
+}
+
 .loader-container {
   display: flex;
   justify-content: center;

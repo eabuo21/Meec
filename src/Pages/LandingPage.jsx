@@ -15,8 +15,7 @@ import Cs2 from "../Components/Home/CSR/Cs2";
 import CSRVideo from "../assets/files/videos/7706758-uhd_4096_2160_25fps.mp4";
 import CSRIcon from "../assets/images/customer-service.png";
 import Maps from "../Components/Home/Google/Maps";
-import MailingList from "../Components/Home/MailingList";
-
+import MailingList  from  "../Components/Home/MailingList";
 
 const LandingPage = () => {
   const handleScroll = () => {
@@ -136,11 +135,11 @@ const LandingPage = () => {
             Need Direction ?
           </h2>
           <Maps />
-
+         
         </section>
 
-        <section className=" h-[300px]    ">
-
+        <section className=" h-[300px]    ">     
+         
         </section>
       </div>
     </>
