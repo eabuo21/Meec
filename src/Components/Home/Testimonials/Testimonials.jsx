@@ -120,14 +120,14 @@ const Testimonial = () => {
               className="slide-1 flex flex-col gap-3 justify-center items-start w-[200px] p-2 bg-grey  rounded-lg  shadow-xl bg-opacity-40    md :shadow-xl md :rounded-md  md:gap-8 md:items-center "
             >
               <section className=" flex flex-row gap-4 justify-start items-start p-2">
-                <div className=" flex flex-col  gap-5 bg-white  w-[160px] h-[120px]   justify-center items-center  p-2 rounded-md shadow-current shadow-md    md:w-[150px] md:h-[150px]          md:hover:bg-blue-400  md:hover:text-white  md:hover:transition-all  md:hover:duration-1000 md:hover:ease-in-out   md:transition-all md:duration-1000  md:ease-in-out">
+                <div className=" flex flex-col  gap-5 bg-white  w-[300px] h-auto   justify-center items-center  p-2 rounded-md shadow-current shadow-md              md:hover:bg-blue-400  md:hover:text-white  md:hover:transition-all  md:hover:duration-1000 md:hover:ease-in-out   md:transition-all md:duration-1000  md:ease-in-out">
                   <img
-                    className="rounded-[50%] flex flex-col justify-center items-center p-2 w-[70px] h-[70px]  shadow-current shadow-md   bg-white"
+                    className="rounded-[50%] flex flex-col justify-center items-center p-2 w-[100px] h-[100px]    md:w-[100px] md:h-[110px] shadow-current shadow-md   bg-white"
                     src={testimonial.image}
                     alt="client-image"
                   />
 
-                  <h5 className=" text-sm font-passion text- font-normal text-left  md:text-sm">
+                  <h5 className=" text-sm font-passion text- font-normal text-left  md:text-[12px]">
                     {testimonial.author}
                   </h5>
                 </div>
@@ -143,13 +143,13 @@ const Testimonial = () => {
                       />
                     ))}
                   </div>
-                  <p className="text-sm font-serif text-black text-center pb-6       md:text-base ">
+                  <p className="text-[12px] font-serif text-black text-center pb-6       md:text-sm ">
                     <span className="quotation font-bold text-transparent bg-clip-text bg-gradient-to-b from-[#c168aa] to-blue-700 font-sans text-4xl   lg:w-full">
                       {" "}
                       “
                     </span>
                     {testimonial.content}
-                    <span className="quotation font-normal text-blue-950 bg-clip-text bg-gradient-to-b from-[#c168aa] to-blue-950 font-sans  ">
+                    <span className="quotation  text-[12px] font-normal text-blue-950 bg-clip-text bg-gradient-to-b from-[#c168aa] to-blue-950 font-sans  ">
                       ”
                     </span>
                   </p>

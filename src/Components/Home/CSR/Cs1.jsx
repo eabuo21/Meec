@@ -5,6 +5,7 @@ const CustomModal = ({ isOpen, onClose, url }) => {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
+  
     } else {
       document.body.style.overflow = "auto";
     }
@@ -16,7 +17,7 @@ const CustomModal = ({ isOpen, onClose, url }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed  z-50 inset-0 bg-black bg-opacity-50 flex justify-center items-center">
       <div className="bg-white p-4 rounded-lg w-[400px] z-50 relative top-[3rem] md:w-[500px]">
         <button onClick={onClose} className="text-red-500">
           Close
@@ -71,7 +72,8 @@ const Cs1 = () => {
       <CustomModal
         isOpen={isOpen}
         onClose={handleClose}
-        url="https://calendly.com/pr2-technicals/meec-consulting" // Replace with your actual Calendly URL
+        url="https://calendly.com/pr2-technicals/meec-consulting" 
+        className="z-50"// Replace with your actual Calendly URL
       />
     </div>
   );

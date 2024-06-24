@@ -21,7 +21,7 @@ const Navigation = () => {
 
   const navigationLinks = [
     { name: "About Us", to: "#" },
-    { name: "Services", to: "#" },
+    { name: "Services", to: "/services" },
     { name: "Blogs/News", to: "#" },
     { name: "FAQ", to: "#" },
     { name: "Careers", to: "#" },

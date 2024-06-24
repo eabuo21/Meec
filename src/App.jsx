@@ -11,6 +11,7 @@ import LandingPage from "./Pages/LandingPage";
 import Successful from "./Components/Home/Successful";
 import BacktoTop from "./Components/BacktoTop";
 import "react-toastify/dist/ReactToastify.css";
+import Services from "./Pages/Services";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Nav className="navigation-container sticky top-0 z-50" />
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/services" element={<Services/>}/>
             <Route path="/success" element={<Successful />} />
           </Routes>
           <ToastContainer className="notification-section" />

@@ -14,7 +14,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
 const DesktopFooter = () => {
   return (
     <div className="footer-container  px-3     grid grid-cols-2    md:px-0  md:grid md:grid-cols-5 md:gap-2 md:justify-center md:items-center">
