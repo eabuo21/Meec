@@ -19,7 +19,7 @@ export default function AccordionExpandIcon() {
     >
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700 hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -41,7 +41,29 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700 hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
+          expandIcon={
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="bg-blue-950  text-white  rounded-[50%] p-2"
+            />
+          }
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography>Accordion 1</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="bg-blue-950 text-white hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out ">
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -63,7 +85,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -85,7 +107,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -107,29 +129,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
-          expandIcon={
-            <FontAwesomeIcon
-              icon={faChevronDown}
-              className="bg-blue-950  text-white  rounded-[50%] p-2"
-            />
-          }
-          aria-controls="panel1-content"
-          id="panel1-header"
-        >
-          <Typography>Accordion 1</Typography>
-        </AccordionSummary>
-        <AccordionDetails className="bg-blue-950 text-white ">
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion>
-        <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}

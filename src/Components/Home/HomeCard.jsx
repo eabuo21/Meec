@@ -28,7 +28,7 @@ const HomeC = ({ box, icon, title, description, route, awesomefont }) => {
         <p className="description_text text-sm font-normal font-passion text-black  text-center   md:text-xl ">
           {description}
         </p>
-        <button className=" bg-blue-950   w-full p-2 rounded-md text-white  ">
+        <button className=" bg-blue-950   w-full p-2 rounded-md text-white  hover:bg-blue-400 hover:ease-in-out hover:transition-all hover:duration-1000  transition-all duration-1000 ease-in-out ">
           <Link to={route}>Learn More</Link>
         </button>
       </div>

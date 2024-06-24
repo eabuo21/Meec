@@ -120,7 +120,7 @@ const Testimonial = () => {
               className="slide-1 flex flex-col gap-3 justify-center items-start w-[200px] p-2 bg-grey  rounded-lg  shadow-xl bg-opacity-40    md :shadow-xl md :rounded-md  md:gap-8 md:items-center "
             >
               <section className=" flex flex-row gap-4 justify-start items-start p-2">
-                <div className=" flex flex-col  gap-5 bg-white  w-[160px] h-[120px]   justify-center items-center  p-2 rounded-md shadow-current shadow-md    md:w-[150px] md:h-[150px]          md:hover:bg-blue-950  md:hover:text-white  md:hover:transition-all  md:hover:duration-1000 md:hover:ease-in-out   md:transition-all md:duration-1000  md:ease-in-out">
+                <div className=" flex flex-col  gap-5 bg-white  w-[160px] h-[120px]   justify-center items-center  p-2 rounded-md shadow-current shadow-md    md:w-[150px] md:h-[150px]          md:hover:bg-blue-400  md:hover:text-white  md:hover:transition-all  md:hover:duration-1000 md:hover:ease-in-out   md:transition-all md:duration-1000  md:ease-in-out">
                   <img
                     className="rounded-[50%] flex flex-col justify-center items-center p-2 w-[70px] h-[70px]  shadow-current shadow-md   bg-white"
                     src={testimonial.image}

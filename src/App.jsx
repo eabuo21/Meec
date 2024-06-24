@@ -9,6 +9,8 @@ import { HashLoader } from "react-spinners";
 import { ToastContainer } from "react-toastify";
 import LandingPage from "./Pages/LandingPage";
 import Successful from "./Components/Home/Successful";
+import BacktoTop from "./Components/BacktoTop";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,7 +27,7 @@ function App() {
   }, []);
 
   const simulateWebsiteLoading = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         resolve();
       }, 2000);
@@ -40,20 +42,15 @@ function App() {
         </div>
       ) : (
         <>
-          <section className="navigation-container   sticky top-0 z-50 ">
-            <Nav />
-          </section>
+          <Nav className="navigation-container sticky top-0 z-50" />
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/success" element={<Successful />} />
           </Routes>
-          <section className="notification-section">
-            <ToastContainer />
-          </section>
-
-          <section className="navigation-container   sticky top-0 z-50 ">
-            <Feat />
-          </section>
+          <ToastContainer className="notification-section" />
+          
+          <Feat className="footer-container sticky bottom-0 z-50" />
+          <BacktoTop className="backtotop-section flex absolute bottom-[400px] right-4 z-50"  />
         </>
       )}
     </div>

@@ -8,7 +8,7 @@ const AccordionItem = ({ title, text }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-blue-700 ">
+    <div className="border-b border-blue-700  hover:bg-blue-400 hover:transition-all hover:duration-1000 hover:ease-in-out      ease-in-out transition-all duration-1000">
       <div
         className="flex justify-between w-full p-4 text-left focus:outline-none pointer"
         onClick={() => setIsOpen(!isOpen)}

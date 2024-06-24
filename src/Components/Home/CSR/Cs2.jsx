@@ -52,7 +52,7 @@ const Cs2 = () => {
               <a href={urls[index]} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon
                   icon={icon}
-                  className="text-xl bg-blue-950 text-white font-bold rounded-full p-4 shadow-current shadow-md hover:bg-gold hover:text-blue-950 hover:transition-all hover:duration-1000 hover:ease-in-out transition-all duration-1000 ease-in-out"
+                  className="text-xl bg-blue-950 text-white font-bold rounded-full p-4 shadow-current shadow-md hover:bg-blue-400 hover:text-blue-950 hover:transition-all hover:duration-1000 hover:ease-in-out transition-all duration-1000 ease-in-out"
                 />
               </a>
             </span>

@@ -15,7 +15,7 @@ import Cs2 from "../Components/Home/CSR/Cs2";
 import CSRVideo from "../assets/files/videos/7706758-uhd_4096_2160_25fps.mp4";
 import CSRIcon from "../assets/images/customer-service.png";
 import Maps from "../Components/Home/Google/Maps";
-import MailingList  from  "../Components/Home/MailingList";
+import MailingList from "../Components/Home/MailingList";
 
 const LandingPage = () => {
   const handleScroll = () => {
@@ -107,10 +107,10 @@ const LandingPage = () => {
             }}
           >
             <source src={CSRVideo} type="video/mp4" />
-            Your browser does not support the video tag.
+             browser does not support the video tag.
           </video>
 
-          <h2 className="text-center font-bold text-white text-xl md:text-4xl relative top-7 pt-8 flex justify-center items-center">
+          <h2 className="text-center font-bold text-blue-950 text-xl md:text-4xl relative top-7 pt-8 flex justify-center items-center  md:text-white">
             Consult an Expert
           </h2>
           <div className="items-holders flex flex-col gap-4 relative top-[4rem] h-[fixed] p-3 bg-dance_blue shadow-current shadow-md md:shadow-none justify-center items-center md:grid md:grid-cols-2 md:gap-6 md:justify-center md:items-center">
@@ -130,16 +130,11 @@ const LandingPage = () => {
           </div>
         </section>
 
-        <section className="map-=section  hidden   p-4  h-[fixed] w-full  relative  top-[6rem]  md:flex  flex-col gap-4 justify-center items-center ">
+        <section className="map-=section     p-4  h-[fixed] w-full  relative  top-[6rem]  md:flex  flex-col gap-4 justify-center items-center ">
           <h2 className="text-center font-bold text-blue-950 text-xl md:text-4xl pt-8">
             Need Direction ?
           </h2>
           <Maps />
-         
-        </section>
-
-        <section className=" h-[300px]    ">     
-         
         </section>
       </div>
     </>

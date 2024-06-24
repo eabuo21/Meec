@@ -19,7 +19,7 @@ export default function AccordionExpandIcon() {
     >
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -41,7 +41,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -63,7 +63,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -85,7 +85,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -107,7 +107,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}
@@ -129,7 +129,7 @@ export default function AccordionExpandIcon() {
 
       <Accordion>
         <AccordionSummary
-          className="border-2 border-blue-700"
+          className="border-2 border-blue-700  hover:bg-blue-400 hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
           expandIcon={
             <FontAwesomeIcon
               icon={faChevronDown}

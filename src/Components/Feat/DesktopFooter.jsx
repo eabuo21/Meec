@@ -14,11 +14,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 const DesktopFooter = () => {
   return (
-    <div className="footer-container   hidden     md:grid md:grid-cols-5 md:gap-2 md:justify-center md:items-center">
+    <div className="footer-container  px-3     grid grid-cols-2    md:px-0  md:grid md:grid-cols-5 md:gap-2 md:justify-center md:items-center">
       <ul className="items-container      flex flex-col gap-3 justify-start items-start px-2  ">
-        <h3 className="heading   text-white  font-bold text-2xl font-dm ">
+        <h3 className="heading   text-white  font-bold  text-base md:text-2xl font-dm ">
           Company
         </h3>
         <li className="link-item text-opacity-70   text-white ">
@@ -39,7 +40,7 @@ const DesktopFooter = () => {
       {/* section 2 */}
 
       <ul className="items-container      flex flex-col gap-3 justify-start items-start px-2  ">
-        <h3 className="heading   text-white  font-bold text-2xl font-dm ">
+        <h3 className="heading   text-white  font-bold  text-base md:text-2xl font-dm ">
           Legal
         </h3>
         <li className="link-item text-opacity-70   text-white ">
@@ -56,7 +57,7 @@ const DesktopFooter = () => {
 
       {/* section 3 */}
       <ul className="items-container      flex flex-col gap-3 justify-start items-start px-2  ">
-        <h3 className="heading   text-white  font-bold text-2xl font-dm ">
+        <h3 className="heading   text-white  font-bold  text-base md:text-2xl font-dm ">
           Support
         </h3>
         <li className="link-item text-opacity-70   text-white ">
@@ -74,7 +75,7 @@ const DesktopFooter = () => {
       {/* section 4 */}
 
       <ul className="items-container      flex flex-col gap-3 justify-start items-start px-2  ">
-        <h3 className="heading   text-white  font-bold text-2xl font-dm ">
+        <h3 className="heading   text-white  font-bold  text-base md:text-2xl font-dm ">
           Quick Links
         </h3>
         <li className="link-item text-opacity-70   text-white ">
@@ -94,7 +95,7 @@ const DesktopFooter = () => {
 
       {/* section 5 */}
       <section className=" flex flex-col flex-wrap gap-2 justify-start items-start   w-full ">
-        <h3 className="heading   text-white  font-bold text-2xl font-dm ">
+        <h3 className="heading   text-white  font-bold  text-base md:text-2xl font-dm ">
           Get InTouch
         </h3>
         <ul className="items-container    flex  flex-row flex-wrap mr-6   gap-2 justify-start items-start   ">
@@ -104,7 +105,7 @@ const DesktopFooter = () => {
                 {" "}
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  className="text-white text-2xl"
+                  className="text-white  text-base md:text-2xl"
                 />
               </a>
             </span>
@@ -116,7 +117,7 @@ const DesktopFooter = () => {
                 {" "}
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-white text-2xl"
+                  className="text-white  text-base md:text-2xl"
                 />
               </a>
             </span>
@@ -128,7 +129,7 @@ const DesktopFooter = () => {
                 {" "}
                 <FontAwesomeIcon
                   icon={faTwitter}
-                  className="text-white text-2xl"
+                  className="text-white  text-base md:text-2xl"
                 />
               </a>
             </span>
@@ -136,14 +137,14 @@ const DesktopFooter = () => {
 
           <span>
             {" "}
-            <p className="text-sm  text-opacity-70">
-              14 Freedom Way Lekki  Lagos
+            <p className="text-sm  text-opacity-70  text-white">
+              14 Alaba Williams Street Lagos
             </p>
           </span>
         </ul>
 
         <ul className="items-container      flex flex-col gap-3 justify-start items-start px-2  ">
-          <h5 className="heading   text-white  font-bold text-xl font-dm ">
+          <h5 className="heading   text-white  font-bold text-base font-dm  md:text-xl">
             Connect
           </h5>
           <section className="flex flex-col   gap-2 justify-start items-start ">
@@ -153,7 +154,10 @@ const DesktopFooter = () => {
                 icon={faPhone}
                 className="text-white text-sm"
               />{" "}
-              <a href="tel:09063688891" className="text-sm  text-opacity-70">
+              <a
+                href="tel:09063688891"
+                className="text-sm text-white text-opacity-70"
+              >
                 (+234)-906-368-8891
               </a>{" "}
             </span>
@@ -165,7 +169,7 @@ const DesktopFooter = () => {
               />{" "}
               <a
                 href="mailto:pr2.technicals@gmail.com"
-                className="text-sm  text-opacity-70"
+                className="text-sm  text-opacity-70 text-white"
               >
                 info@meec.co
               </a>{" "}

@@ -45,7 +45,7 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    background: rgb(4, 6, 130); /* Adjust color if needed */
+    background: #60A5FA; /* Adjust color if needed */
     transition: all 1s ease-in-out;
     z-index: 1;
   }
