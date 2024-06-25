@@ -1,9 +1,20 @@
-import React from 'react'
+/** @format */
+
+import React, { useEffect } from "react";
+import SHero from "../Components/Services/SHero";
+import SSubHero from "../Components/Services/SSubHero";
 
 const Services = () => {
-  return (
-    <div>Services</div>
-  )
-}
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-export default Services
+  return (
+    <div className="service-container w-full h-[fixed] flex flex-col  bg-dance_blue">
+      <SHero className="hero-section bg-white w-full h-[fixed] pb-8" />
+      <SSubHero className="hero-sub-section w-full h-[fixed]  "/>
+    </div>
+  );
+};
+
+export default Services;

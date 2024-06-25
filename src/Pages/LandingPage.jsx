@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Hero from "../Components/Home/Hero";
 import HomeCards from "../Components/Home/HomeCards";
 import AboutCards from "../Components/Home/AboutCards";
@@ -7,15 +7,15 @@ import FeaturedServices1 from "../Components/Home/featured services/Featuresarra
 import FeaturedServices2 from "../Components/Home/featured services/Featuresarrays2";
 import Clientele from "../Components/Home/Clientele/Clientele";
 import Testimonials from "../Components/Home/Testimonials/Testimonials";
-import FaqBg from "../assets/images/background.png";
+
 import FQ from "../Components/Home/Faq/FQ";
 import FQ2 from "../Components/Home/Faq/FQ2";
 import Cs1 from "../Components/Home/CSR/Cs1";
 import Cs2 from "../Components/Home/CSR/Cs2";
 import CSRVideo from "../assets/files/videos/7706758-uhd_4096_2160_25fps.mp4";
-import CSRIcon from "../assets/images/customer-service.png";
+
 import Maps from "../Components/Home/Google/Maps";
-import MailingList from "../Components/Home/MailingList";
+
 
 const LandingPage = () => {
   const handleScroll = () => {
@@ -30,7 +30,7 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="main-home-container w-full h-[fixed] flex flex-col gap-8 ">
+      <div className="home-container w-full h-[fixed] flex flex-col gap-8 ">
         <section className="hero-section bg-white w-full h-[fixed]">
           <Hero />
         </section>

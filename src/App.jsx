@@ -12,6 +12,10 @@ import Successful from "./Components/Home/Successful";
 import BacktoTop from "./Components/BacktoTop";
 import "react-toastify/dist/ReactToastify.css";
 import Services from "./Pages/Services";
+import Blogs from "./Pages/Blogs&News";
+import FAQ from "./Pages/FAQ";
+import Careers from "./Pages/Careers";
+import ContactUs from "./Pages/ContactUs";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -46,13 +50,17 @@ function App() {
           <Nav className="navigation-container sticky top-0 z-50" />
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/services" element={<Services/>}/>
+            <Route path="/services" element={<Services />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/contact" element={<ContactUs />} />
             <Route path="/success" element={<Successful />} />
           </Routes>
           <ToastContainer className="notification-section" />
-          
+
           <Feat className="footer-container sticky bottom-0 z-50" />
-          <BacktoTop className="backtotop-section flex absolute bottom-[400px] right-4 z-50"  />
+          <BacktoTop className="backtotop-section flex absolute bottom-[400px] right-4 z-50" />
         </>
       )}
     </div>

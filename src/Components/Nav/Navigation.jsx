@@ -1,3 +1,5 @@
+/** @format */
+
 import { Fragment, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Disclosure, Transition } from "@headlessui/react";
@@ -20,12 +22,12 @@ const Navigation = () => {
   }, [menuOpen]);
 
   const navigationLinks = [
-    { name: "About Us", to: "#" },
+    { name: "About Us", to: "/about" },
     { name: "Services", to: "/services" },
-    { name: "Blogs/News", to: "#" },
-    { name: "FAQ", to: "#" },
-    { name: "Careers", to: "#" },
-    { name: "Contact", to: "#" },
+    { name: "Blogs/News", to: "/blogs" },
+    { name: "FAQ", to: "/faq" },
+    { name: "Careers", to: "/careers" },
+    { name: "Contact", to: "/contact" },
   ];
 
   return (
