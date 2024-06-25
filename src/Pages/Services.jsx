@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div className="service-container w-full h-[fixed] flex flex-col  bg-dance_blue">
       <SHero className="hero-section bg-white w-full h-[fixed] pb-8" />
-      <SSubHero className="hero-sub-section w-full h-[fixed]  "/>
+      <SSubHero className="hero-sub-sections w-full h-[fixed]  "/>
     </div>
   );
 };
