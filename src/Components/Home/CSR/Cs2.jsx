@@ -32,9 +32,9 @@ const Cs2 = () => {
       data-aos-delay="50"
       data-aos-anchor-placement="top-bottom"
       data-aos-throttle="true"
-      className="image-holder-cs2 w-full md:w-full md:flex"
+      className="image-holder-cs2 w-full md:w-full md:flex "
     >
-      <div className="relative w-48 h-48 mx-auto">
+      <div className="relative w-48 h-48 mx-auto ">
         {icons.map((icon, index) => {
           const angle = angleStep * index - Math.PI / 9; // Calculate the angle for each icon
           const x = radius * Math.cos(angle); // Calculate x position

@@ -213,3 +213,28 @@ li {
     opacity: 1;
   }
 }
+
+
+
+
+.btn-with-arrow {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.btn-with-arrow .arrows {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.btn-with-arrow:hover .arrows {
+  transform: translateX(5px);
+}
+
+.btn-with-arrow:hover {
+  background-color: #0056b3;
+}

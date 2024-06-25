@@ -5,6 +5,7 @@ const CustomModal = ({ isOpen, onClose, url }) => {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
+      
   
     } else {
       document.body.style.overflow = "auto";
@@ -18,7 +19,7 @@ const CustomModal = ({ isOpen, onClose, url }) => {
 
   return (
     <div className="fixed  z-50 inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-4 rounded-lg w-[400px] z-50 relative top-[3rem] md:w-[500px]">
+      <div className="bg-white p-4 rounded-lg w-[400px]  relative  md:w-[500px]">
         <button onClick={onClose} className="text-red-500">
           Close
         </button>
@@ -26,7 +27,7 @@ const CustomModal = ({ isOpen, onClose, url }) => {
           src={url}
           width="100%"
           height="100%"
-          style={{ border: "none", minHeight: "80vh" }}
+          style={{ border: "none", minHeight: "50vh" }}
           title="Calendly"
         />
       </div>

@@ -16,7 +16,6 @@ import CSRVideo from "../assets/files/videos/7706758-uhd_4096_2160_25fps.mp4";
 
 import Maps from "../Components/Home/Google/Maps";
 
-
 const LandingPage = () => {
   const handleScroll = () => {
     window.scrollTo(0, 0);
@@ -60,8 +59,8 @@ const LandingPage = () => {
               data-aos-delay="50"
               data-aos-anchor-placement="top-bottom"
               data-aos-throttle="true"
-              src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_software_developer.jpg"
-              className="hidden md:flex w-[30%] h-[300px]"
+              src="https://mention.com/wp-content/uploads/2017/12/8-Social-Media-Services-That-Agencies-Should-Offer-Clients-Header.png"
+              className="hidden md:flex w-[30%] h-[300px] rounded-md"
             />
           </div>
         </section>
@@ -107,7 +106,7 @@ const LandingPage = () => {
             }}
           >
             <source src={CSRVideo} type="video/mp4" />
-             browser does not support the video tag.
+            browser does not support the video tag.
           </video>
 
           <h2 className="text-center font-bold text-blue-950 text-xl md:text-4xl relative top-7 pt-8 flex justify-center items-center  md:text-white">

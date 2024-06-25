@@ -13,7 +13,7 @@ const SHero = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="h-[300px]   w-full  flex flex-col justify-center items-center   "
+      className="h-[500px]   w-full  flex flex-col justify-center items-center   "
     >
       <div className="flex flex-col gap-4 justify-center items-center  mx-auto ">
         <h5 className="text-white font-dm text-xl       md:text-2xl text-center ">
