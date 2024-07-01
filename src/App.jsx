@@ -16,6 +16,7 @@ import Blogs from "./Pages/Blogs&News";
 import FAQ from "./Pages/FAQ";
 import Careers from "./Pages/Careers";
 import ContactUs from "./Pages/ContactUs";
+import Mlogo from "./assets/images/logo.png";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -42,8 +43,10 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <div className="loader-container">
-          <HashLoader color={"red"} loading={true} size={80} />
+        <div className="loader-container bg-blue-950 flex flex-col gap-4">
+          {/* <HashLoader color={"red"} loading={true} size={80} /> */}
+          <img src={Mlogo} className="w-[300px] h-[300px] "/>
+        
         </div>
       ) : (
         <>

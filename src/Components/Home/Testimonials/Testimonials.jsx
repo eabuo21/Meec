@@ -49,7 +49,7 @@ const Testimonial = () => {
         <div
           key={i}
           className={`custom-dot flex flex-col justify-center items-center  border-2     border-blue-950  ${
-            i === activeIndex ? "active  border-aa2 border-red" : "   " // Add a class for the active dot
+            i === activeIndex ? "active  border-2 border-gold" : "   " // Add a class for the active dot
           }`}
         ></div>
       );

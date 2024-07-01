@@ -1,8 +1,6 @@
 /** @format */
 
 import React from "react";
-import MLogo from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
 
 const SHero = () => {
   return (

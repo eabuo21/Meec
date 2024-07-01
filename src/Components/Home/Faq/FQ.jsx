@@ -15,7 +15,7 @@ export default function AccordionExpandIcon() {
       data-aos-delay="50"
       data-aos-anchor-placement="top-down"
       data-aos-throttle="true"
-      className="   w-full   h-[250px]  overflow-y-auto  md:h-auto  lg:w-[600px]   md:w-[350px]  md:border md:border-blue-950 md:shadow-current md:shadow-md"
+      className="   w-full   h-[250px]  overflow-y-auto  md:h-auto  lg:w-[600px]   md:w-[350px]  md:border    md:shadow-xl"
     >
       <Accordion>
         <AccordionSummary

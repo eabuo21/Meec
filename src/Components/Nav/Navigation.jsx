@@ -33,18 +33,18 @@ const Navigation = () => {
   return (
     <Disclosure
       as="nav"
-      className="p-2 bg-blue-950 transition-colors duration-1000 ease-in-out text-white text-xl sticky top-0 z-50"
+      className="p-7 bg-blue-950 transition-colors duration-1000 ease-in-out text-white text-xl sticky top-0 z-50 "
     >
       {({ open }) => (
         <>
           <div className="container mx-auto flex items-center justify-between">
             <Link to="/" onClick={() => setMenuOpen(false)}>
               <img
-                src={MeecLogo}
+                src=""
                 className="max-h-[120px]  max-w-[200px] object-fit"
                 alt="Meec Logo"
               />
-            </Link>
+            </Link> 
 
             <div className="desktop-navigation lg:flex lg:flex-row space-x-4 gap-8 border-0 border-b border-white lg:border-0">
               {navigationLinks.map((link) => (

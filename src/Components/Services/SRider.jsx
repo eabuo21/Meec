@@ -9,7 +9,7 @@ const SRider = () => {
       data-aos-easing="ease-in linear"
       data-aos-mirror="true"
       data-aos-throttle="true"
-      className="w-full  py-8 z-50  p-2 gap-5  px-7 h-[fixed] flex flex-col justify-center items-center md:rounded-sm md:shadow-current md:shadow-md
+      className="w-full  py-8 z-50  p-2 gap-5  px-7 h-[fixed] flex flex-col justify-center items-center md:rounded-sm  md:shadow-xl
       md:relative md:bottom-[2rem] bg-white  md:w-[900px]
       
   
@@ -30,7 +30,6 @@ const SRider = () => {
       <button className="bg-blue-950 font-bold flex  text-white justify-center items-center text-center text-base   md:text-xl w-[150px] h-[40px]     ">
         request
       </button>
-
     </div>
   );
 };

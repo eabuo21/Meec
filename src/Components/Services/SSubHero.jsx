@@ -10,7 +10,13 @@ const SSubHero = () => {
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
           </h4>
-          <h6 className="   text-black w-full   md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
+          <h6
+          data-aos="fade-up"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2300"
+          data-aos-mirror="true"
+          data-aos-anchor-placement="top bottom"
+          className="   text-black w-[80%] mx-auto  md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus exercitationem magnam cupiditate laudantium animi quam,
@@ -27,8 +33,12 @@ const SSubHero = () => {
         </div>
 
         <img
+          data-aos="fade-in"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3yznrKjqejzFu9EZyqO_gI48V6Y2rXeakRg&s"
-          className=" item-image-service w-[300px] h-[300px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
+          className=" item-image-service w-[150px] h-[150px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
         />
       </div>
 
@@ -37,7 +47,13 @@ const SSubHero = () => {
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
           </h4>
-          <h6 className="   text-black w-full   md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
+          <h6
+          data-aos="fade-up"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2300"
+          data-aos-mirror="true"
+          data-aos-anchor-placement="top bottom"
+          className="   text-black w-[80%] mx-auto  md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus exercitationem magnam cupiditate laudantium animi quam,
@@ -54,8 +70,12 @@ const SSubHero = () => {
         </div>
 
         <img
+          data-aos="fade-in"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
           src="https://assets-global.website-files.com/646e120d6d1b3e437d8b5803/6501be260bc9af1ab92f7aa5_Depositphotos_68338445_L%20(1).jpg"
-          className=" item-image-service w-[300px] h-[300px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
+          className=" item-image-service w-[150px] h-[150px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
         />
       </div>
 
@@ -64,7 +84,13 @@ const SSubHero = () => {
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
           </h4>
-          <h6 className="   text-black w-full   md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
+          <h6
+          data-aos="fade-up"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2300"
+          data-aos-mirror="true"
+          data-aos-anchor-placement="top bottom"
+          className="   text-black w-[80%] mx-auto  md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus exercitationem magnam cupiditate laudantium animi quam,
@@ -81,8 +107,12 @@ const SSubHero = () => {
         </div>
 
         <img
+          data-aos="fade-in"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnGxFbbDr7PUQnRxcIWu8zGsb4tMBIai9Vco-C9GgzVs2KER6Yc5SSQv2kcrjOlPl9y90&usqp=CAU.webp"
-          className=" item-image-service w-[300px] h-[300px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
+          className=" item-image-service w-[150px] h-[150px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
         />
       </div>
 
@@ -91,7 +121,13 @@ const SSubHero = () => {
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
           </h4>
-          <h6 className="   text-black w-full   md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
+          <h6
+          data-aos="fade-up"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2300"
+          data-aos-mirror="true"
+          data-aos-anchor-placement="top bottom"
+          className="   text-black w-[80%] mx-auto  md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus exercitationem magnam cupiditate laudantium animi quam,
@@ -108,8 +144,12 @@ const SSubHero = () => {
         </div>
 
         <img
+          data-aos="fade-in"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
           src="https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg"
-          className=" item-image-service w-[300px] h-[300px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
+          className=" item-image-service w-[150px] h-[150px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
         />
       </div>
 
@@ -118,7 +158,13 @@ const SSubHero = () => {
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
           </h4>
-          <h6 className="   text-black w-full   md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
+          <h6
+          data-aos="fade-up"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2300"
+          data-aos-mirror="true"
+          data-aos-anchor-placement="top bottom"
+          className="   text-black w-[80%] mx-auto  md:w-[80%]  text-base md:text-2xl     text-center md:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus exercitationem magnam cupiditate laudantium animi quam,
@@ -135,8 +181,12 @@ const SSubHero = () => {
         </div>
 
         <img
+          data-aos="fade-in"
+          data-aos-easing="ease-in cubic"
+          data-aos-duration="2000"
+          data-aos-mirror="true"
           src="https://assets.datamation.com/uploads/2023/08/dm08162023-data-migration-best-practices.png"
-          className=" item-image-service w-[300px] h-[300px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
+          className=" item-image-service w-[150px] h-[150px] md:w-[50%] md:h-[500px]   rounded-[50%]   md:rounded-md"
         />
       </div>
     </div>

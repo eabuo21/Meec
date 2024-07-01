@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-
 const BacktoTop = () => {
   const [visible, setVisible] = useState(false);
 
@@ -28,15 +27,15 @@ const BacktoTop = () => {
   return (
     <>
       {visible && (
-        <div
+        <button
           onClick={handleScroll}
-          className="flex flex-col justify-center items-center p-4 bg-blue-500 rounded-full cursor-pointer fixed bottom-4 right-4 cursor-pointer hover:bg-dance_blue  hover:transition-all hover:ease-in-out hover:duration-1000    transition-all duration-1000 ease-in-out"
+          className="flex flex-col justify-center items-center p-4 bg-blue-500 rounded-full cursor-pointer fixed bottom-4 right-4 cursor-pointer  hover:b-opacity-70  hover:transition-all hover:ease-in-out hover:duration-1000  hover:text-red  transition-all duration-1000 ease-in-out"
         >
           <FontAwesomeIcon
             icon={faChevronUp}
-            className="text-white font-bold text-xl hover:text-red "
+            className="text-white font-bold text-xl  "
           />
-        </div>
+        </button>
       )}
     </>
   );

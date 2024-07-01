@@ -14,11 +14,11 @@ const Services = () => {
     <div className="service-container w-full h-[fixed] flex flex-col  bg-dance_blue  gap-[7rem]">
       <SHero className="hero-section bg-white w-full h-[fixed] pb-8" />
       <section className="flex justify-center items-center mx-auto">
-        <SRider/>
+        <SRider />
       </section>
-      <SSubHero className="hero-sub-sections w-full h-[fixed] p-4 relative top-[10rem] "/>
-      <Approach className="approach-section w-full h-[fixed] p-4 "/>
-      <Projects className="approach-section w-full h-[fixed] p-4 "/>
+      <SSubHero className="hero-sub-sections w-full h-[fixed] p-4 relative top-[10rem]   md:pb-16" />
+      <Approach className="approach-section w-full h-[fixed] p-4  " />
+      {/* <Projects className="approach-section w-full h-[fixed] p-4 "/> */}
     </div>
   );
 };
