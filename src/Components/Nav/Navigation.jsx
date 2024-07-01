@@ -44,11 +44,15 @@ const Navigation = () => {
                 className="max-h-[120px]  max-w-[200px] object-fit"
                 alt="Meec Logo"
               />
-            </Link> 
+            </Link>
 
             <div className="desktop-navigation lg:flex lg:flex-row space-x-4 gap-8 border-0 border-b border-white lg:border-0">
               {navigationLinks.map((link) => (
                 <Link
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-in linear"
+                  data-aos-duration="1500"
+                  data-aos-delay="50"
                   key={link.name}
                   to={link.to}
                   className="hover:text-blue-700 font-passion text-xl text-white"
@@ -86,6 +90,10 @@ const Navigation = () => {
               <div className="flex flex-col space-y-4 p-4 pt-16 px-6 justify-start items-start gap-6 text-sm ">
                 {navigationLinks.map((link) => (
                   <Link
+                    data-aos="flip-right"
+                    data-aos-easing="ease-in cubic"
+                    data-aos-duration="1500"
+                    data-aos-delay="50"
                     key={link.name}
                     to={link.to}
                     className="text-white hover:text-blue-700 text-xl w-full border-b border-b-black"

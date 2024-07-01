@@ -4,16 +4,16 @@ const insights = () => {
   return (
     <div
       className="flex flex-col gap-6   w-full  bg-white h-[fixed] 
-    md:flex-row shadow-xl rounded-md"
+    md:flex-row-reverse shadow-xl rounded-md"
     >
       <section className="first-container relative flex flex-col gap-4 justify-start items-start w-full md:w-[50%] h-[500px] transform scale-x-[-1]">
         <img
           className="w-full h-[500px] md:w-auto md:h-[500px] object-cover"
-          src="https://mail.almerja.com/en/images/large/1679978007-6039.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5wQW1qGUgCKAlzoOQI_UaMa19P7gOslA5w&usqp=CAU"
           alt=""
         />
         <div className="absolute inset-0 bg-blue-950 opacity-0 hover:opacity-100 transition-opacity duration-500 flex justify-center items-center">
-          <article className="text-white text-base  md:text-xl font-bold  text-center transform scale-x-[-1]">
+          <article className="text-white text-base  md:text-xl font-bold transform scale-x-[-1] text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
             illum ipsam cupiditate laboriosam provident maxime voluptatem magni
             blanditiis quidem sed?
@@ -41,7 +41,7 @@ const insights = () => {
             className=" shadow-xl"
             alt=""
           />
-      
+        
         </div>
 
         {/* items 3 */}

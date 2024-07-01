@@ -5,7 +5,7 @@ import React from "react";
 const SSubHero = () => {
   return (
     <div className="flex flex-col w-full  gap-8  md:gap-0   justify-center items-center     md:justify-start md:items-start">
-      <div className="flex flex-col-reverse    bg-white  w-full lg:h-[500px] h-[fixed]    md:flex-row-reverse md:gap-0   justify-center items-center    md:justify-start md:items-start  ">
+      <div className="flex flex-col-reverse    bg-white  w-[360px] p-2 shadow-xl   md:shadow-none     lg:w-full  md:w-full  lg:h-[500px] h-[fixed]    md:flex-row-reverse md:gap-0   justify-center items-center    md:justify-start md:items-start  ">
         <div className=" trapezoid-shape bg-white   lg:h-[500px]  h-[fixed] p-2 w-full md:w-[50%] justify-center items-start px-2 flex flex-col gap-4  md:pl-[6rem]">
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
@@ -42,7 +42,7 @@ const SSubHero = () => {
         />
       </div>
 
-      <div className="flex flex-col-reverse     bg-white  w-full lg:h-[500px] h-[fixed]    md:flex-row md:gap-0   justify-center items-center    md:justify-start md:items-start ">
+      <div className="flex flex-col-reverse     bg-white  w-[360px] p-2 shadow-xl   md:shadow-none     lg:w-full  md:w-full  lg:h-[500px] h-[fixed]    md:flex-row md:gap-0   justify-center items-center    md:justify-start md:items-start ">
         <div className=" trapezoid-shape bg-white   lg:h-[500px]  h-[fixed] p-2 w-full md:w-[50%] justify-center items-start px-2 flex flex-col gap-4  md:pl-[6rem]">
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
@@ -79,7 +79,7 @@ const SSubHero = () => {
         />
       </div>
 
-      <div className="flex flex-col-reverse     bg-white  w-full lg:h-[500px] h-[fixed]    md:flex-row-reverse md:gap-0   justify-center items-center    md:justify-start md:items-start ">
+      <div className="flex flex-col-reverse     bg-white  w-[360px] p-2 shadow-xl   md:shadow-none     lg:w-full  md:w-full  lg:h-[500px] h-[fixed]    md:flex-row-reverse md:gap-0   justify-center items-center    md:justify-start md:items-start ">
         <div className=" trapezoid-shape bg-white   lg:h-[500px]  h-[fixed]  p-2 w-full md:w-[50%] justify-center items-start px-2 flex flex-col gap-4  md:pl-[6rem]">
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
@@ -116,7 +116,7 @@ const SSubHero = () => {
         />
       </div>
 
-      <div className="flex flex-col-reverse     bg-white  w-full lg:h-[500px] h-[fixed]    md:flex-row md:gap-0   justify-center items-center    md:justify-start md:items-start ">
+      <div className="flex flex-col-reverse     bg-white  w-[360px] p-2 shadow-xl   md:shadow-none     lg:w-full  md:w-full  lg:h-[500px] h-[fixed]    md:flex-row md:gap-0   justify-center items-center    md:justify-start md:items-start ">
         <div className=" trapezoid-shape bg-white   lg:h-[500px]  h-[fixed]  p-2 w-full md:w-[50%] justify-center items-start px-2 flex flex-col gap-4  md:pl-[6rem]">
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development
@@ -153,7 +153,7 @@ const SSubHero = () => {
         />
       </div>
 
-      <div className="flex flex-col-reverse     bg-white  w-full lg:h-[500px] h-[fixed]    md:flex-row-reverse md:gap-0   justify-center items-center    md:justify-start md:items-start ">
+      <div className="flex flex-col-reverse     bg-white  w-[360px] p-2 shadow-xl   md:shadow-none     lg:w-full  md:w-full  lg:h-[500px] h-[fixed]    md:flex-row-reverse md:gap-0   justify-center items-center    md:justify-start md:items-start ">
         <div className=" trapezoid-shape bg-white   lg:h-[500px]  h-[fixed] p-2 w-full md:w-[50%] justify-center items-start px-2 flex flex-col gap-4  md:pl-[6rem]">
           <h4 className="text-blue-950 font-bold text-xl  text-center   md:text-left   md:text-4xl">
             Custom Website & Applications Development

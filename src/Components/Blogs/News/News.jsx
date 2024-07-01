@@ -4,6 +4,7 @@ import {
   faHackerNews,
   faSquareGooglePlus,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 function News() {
   const news = [
@@ -16,8 +17,8 @@ function News() {
       description: "Cyber Treats News Worldwide",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis itaque minus soluta repreh]pore aper",
-      url: "https://blogger.com/blogs/google.com/gogs/news/tech",
-      frame_source: "https://blogger.com/blogs/google.com/gogs/news/tech",
+      url: "https://linkstopost.com",
+      frame_source: "https://linkstopost.com",
     },
 
     {
@@ -28,8 +29,8 @@ function News() {
       description: "Cyber Treats News Worldwide",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis itaque minus soluta repreh]pore aper",
-      url: "https://blogger.com/blogs/google.com/gogs/news/tech",
-      frame_source: "https://blogger.com/blogs/google.com/gogs/news/tech",
+      url: "https://linkstopost.com",
+      frame_source: "https://linkstopost.com",
     },
 
     {
@@ -41,26 +42,27 @@ function News() {
       description: "Cyber Treats News Worldwide",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis itaque minus soluta repreh]pore aper",
-      url: "https://blogger.com/blogs/google.com/gogs/news/tech",
-      frame_source: "https://blogger.com/blogs/google.com/gogs/news/tech",
+      url: "https://linkstopost.com",
+      frame_source: "https://linkstopost.com",
     },
   ];
 
   return (
-    <div className=" flex flex-col gap-8 justify-start items-center p-2  w-full  md:gap-12">
+    <div className=" flex flex-col gap-12 justify-start items-center p-2  w-full  md:gap-12">
       {news.map((news, index) => (
         <div
           key={index}
           style={{
             background: news.border,
           }}
-          className="h-[fixed] w-[360px]  shadow-xl  justify-start items-start flex flex-col md:flex-row gap-8      
+          className="h-[fixed] w-[360px]    shadow-xl  justify-start items-start flex flex-col md:flex-row gap-8      
           
-          md:h-[60vh] md:w-[150vh]  md:pl-2 md:pr-2"
+          lg:h-[60vh] lg:w-[150vh]  lg:pl-2 lg:pr-2         md:h-[30vh] md:w-[75vh]  md:pl-2 md:pr-2  "
         >
           <section
-            className="image-container   h-[300px] w-[350px] flex flex-col justify-center items-center mx-auto
-          md:h-[60vh] md:w-[60%] md:justify-start md:items-start md:mx-0
+            className="image-container   h-[300px] w-[360px] flex flex-col justify-center items-center mx-auto
+          lg:h-[60vh] lg:w-[60%] lg:justify-start lg:items-start lg:mx-0
+          md:h-[30vh] md:w-[60%] md:justify-start md:items-start md:mx-0
          "
           >
             <img
@@ -96,13 +98,13 @@ function News() {
             <article className="text-sm font-serif text-left    md:text-base ">
               {news.content}
             </article>
-            <a
-              href={news.url}
-              className="text-blue-400 italic underline"
+            <Link
+              to={news.url}
+              className="text-blue-400 italic underline "
               target="blank"
             >
               {news.frame_source}
-            </a>
+            </Link>
           </section>
         </div>
       ))}

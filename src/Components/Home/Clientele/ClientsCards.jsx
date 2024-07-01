@@ -8,61 +8,29 @@ function ClientsCards() {
     {
       box: "white",
       image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTefRGuKYQbZR4APOFHbtE9BDPumdvN0lEn3w&usqp=CAU",
     },
 
     {
       box: "",
       image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+        "https://www.bellanaija.com/wp-content/uploads/2023/08/pexels-rdne-stock-project-10375959.jpg",
     },
     {
       box: "",
       image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+        "https://static.fmgsuite.com/media/images/7943df26-707d-4d06-855e-98f6c5b34fdc.jpg",
     },
     {
       box: "",
       image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+        "https://static.pib.gov.in/WriteReadData/userfiles/image/image001UTVZ.jpg",
     },
     {
       box: "",
       image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
+        "https://www.lexartifexllp.com/wp-content/uploads/2018/01/how_to_register_non_governmental_organization_ngo_in_nigeria.jpg",
     },
-    {
-      box: "",
-      image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    },
-    {
-      box: "",
-      image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    },
-    {
-      box: "",
-      image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    },
-    {
-      box: "",
-      image:
-        "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    },
-    // {
-    //   box: "",
-    //   image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    // },
-    // {
-    //   box: "",
-    //   image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    // },
-    // {
-    //   box: "",
-    //   image: "https://images.shiksha.com/mediadata/images/articles/1709552003phpZlYRUW.jpeg",
-    // },
   ];
 
   return (

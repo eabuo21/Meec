@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Bhero from "../Components/Blogs/Bhero";
 import News from "../Components/Blogs/News/News";
 import Insight from "../Components/Blogs/Compinsights/insights";
+import Sub from "../Components/Blogs/Compinsights/insights2";
 
 const Blogs = () => {
   useEffect(() => {
@@ -13,6 +14,7 @@ const Blogs = () => {
       <Bhero className="" />
       <News className="   pt-9 " />
       <Insight className=" pt-9" />
+      <Sub className="pt-2"/>
     </div>
   );
 };

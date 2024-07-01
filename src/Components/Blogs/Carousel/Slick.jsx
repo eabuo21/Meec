@@ -1,19 +1,30 @@
 /** @format */
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBridgeLock } from "@fortawesome/free-solid-svg-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Testimonial = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      easing: "ease-in-out",
+      once: true, // Only animate once
+    });
+  }, []);
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 900,
+
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -33,7 +44,7 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -41,7 +52,7 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: true,
+          dots: false,
         },
       },
     ],
@@ -108,26 +119,23 @@ const Testimonial = () => {
   return (
     <>
       <div
-        className="main-slider-container  flex  justify-start items-start w-full 
+        className="main-slider-container  flex  justify-start items-start w-full overflow-hidden
       
       "
       >
-        <div className=" flex flex-row w-full   h-[400px]">
+        <div className=" flex flex-row w-full    h-[400px]">
           <Slider
             {...settings}
-            className="w-full h-[400px]   flex flex-row justify-center  items-center gap-2  md:gap-2  p-4  focus:outline-none bg-dance_blue md:justify-between md:items-start"
+            className="w-full h-[400px]    flex flex-row justify-center  items-center gap-2  md:gap-2  p-4  focus:outline-none bg-dance_blue md:justify-between md:items-start"
           >
             {testimonials.map((testimonials, index) => (
               <div
                 key={index}
-                className="items-container   flex   justify-center items-center  gap-3   "
+                className="items-container    flex   justify-center items-center  gap-3   "
               >
                 <section
                   data-aos="fade-up"
                   data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-duration="2000"
-                  data-aos-throttle="true"
                   style={{
                     background: testimonials.Background,
                   }}
