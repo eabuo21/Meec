@@ -3,6 +3,7 @@ import Bhero from "../Components/Blogs/Bhero";
 import News from "../Components/Blogs/News/News";
 import Insight from "../Components/Blogs/Compinsights/insights";
 import Sub from "../Components/Blogs/Compinsights/insights2";
+import Subscribe from "../Components/Blogs/Compinsights/Subscribe";
 
 const Blogs = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const Blogs = () => {
       <News className="   pt-9 " />
       <Insight className=" pt-9" />
       <Sub className="pt-2"/>
+      <Subscribe className=" pt-2 "/>
     </div>
   );
 };
