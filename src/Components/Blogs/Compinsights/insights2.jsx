@@ -1,62 +1,104 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
-const insights = () => {
+const Insights2 = () => {
+  const [techNews, setTechNews] = useState([]);
+  const API_Key = "2d8170b931954d8dac0b72498263be8b";
+
+  useEffect(() => {
+    const fetchTechNews = async () => {
+      try {
+        const response = await axios.get(
+          "https://newsapi.org/v2/top-headlines",
+          {
+            params: {
+              country: "us",
+              category: "business",
+              apiKey: API_Key, // Replace with your actual API key
+            },
+          }
+        );
+
+        const fetchedNews = response.data.articles.map((article) => ({
+          frame: article.urlToImage,
+          heading: article.title,
+          content: article.content ? article.content.slice(0, 60) + "..." : "",
+          url: article.url,
+          description: article.description
+            ? article.description.slice(0, 100) + "..."
+            : "",
+        }));
+
+        setTechNews(fetchedNews);
+      } catch (error) {
+        console.error("Error fetching technology news data:", error);
+      }
+    };
+
+    fetchTechNews();
+  }, []);
+
   return (
-    <div
-      className="flex flex-col gap-6   w-full  bg-white h-[fixed] 
-    md:flex-row-reverse shadow-xl rounded-md"
-    >
-      <section className="first-container relative flex flex-col gap-4 justify-start items-start w-full md:w-[50%] h-[500px] transform scale-x-[-1]">
-        <img
-          className="w-full h-[500px] md:w-auto md:h-[500px] object-cover"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5wQW1qGUgCKAlzoOQI_UaMa19P7gOslA5w&usqp=CAU"
-          alt=""
-        />
-        <div className="absolute inset-0 bg-blue-950 opacity-0 hover:opacity-100 transition-opacity duration-500 flex justify-center items-center">
-          <article className="text-white text-base  md:text-xl font-bold transform scale-x-[-1] text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            illum ipsam cupiditate laboriosam provident maxime voluptatem magni
-            blanditiis quidem sed?
-          </article>
-        </div>
-      </section>
+    <div className="flex flex-col gap-6 w-full bg-white h-[fixed] md:flex-row-reverse shadow-xl rounded-md  md:h-[400px]">
+      {techNews.length > 0 && (
+        <>
+          <section className="first-container relative flex flex-col gap-4 justify-start items-start w-full md:w-[50%] h-[500px] md:h-[400px] transform scale-x-[-1]">
+            <img
+              className="w-full h-[500px] md:w-auto md:h-[500px] object-cover"
+              src={techNews[1].frame}
+              alt={techNews[1].heading}
+            />
+            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-100 transition-opacity duration-500 flex justify-center items-center">
+              <article className="text-white flex flex-col gap-4 text-center transform scale-x-[-1]">
+                <h1 className="text-xl font-bold font-dm md:text-4xl">
+                  {techNews[1].heading}
+                </h1>
+                <h5 className="text-base font-semibold text-white md:text-xl">
+                  {techNews[1].description}
+                </h5>
+                <h6 className="text-white text-base">{techNews[1].content}</h6>
+                <a href={techNews[1].url} className="text-blue-500 underline">
+                  Read more
+                </a>
+              </article>
+            </div>
+          </section>
 
-      <section
-        className=" second-container grid grid-cols-2 justify-start items-start gap-2 w-full
-        md:w-[50%]   h-[fixed]"
-      >
-        <div className=" item-1 rounded-md flex flex-col gap-3 justify-start items-start h-[fixed] p-2">
-          <img
-            src="https://em360tech.com/sites/default/files/styles/cropper_main_image/public/2024-03/what-is-social-engineering.jpeg.webp?itok=s4UWK99E"
-            className=" shadow-xl"
-            alt=""
-          />
-        
-        </div>
+          <section className="second-container grid grid-cols-2 justify-start items-start gap-2 w-full md:w-[50%] h-[fixed]">
+            {techNews.slice(1, 4).map((newsItem, index) => (
+              <div
+                key={index}
+                className="item-1  relative rounded-md flex flex-col gap-3 justify-start items-start h-[fixed] p-2"
+              >
+                <img
+                  src={newsItem.frame}
+                  className="shadow-xl w-full h-full object-cover  md:h-[180px]"
+                  alt={newsItem.heading}
+                />
 
-        {/* item2 */}
-        <div className=" item-1 rounded-md flex flex-col gap-3 justify-start items-start h-[fixed] p-2">
-          <img
-            src="https://sectigostore.com/blog/wp-content/uploads/2020/05/network-security-best-practices-940x588.jpg"
-            className=" shadow-xl"
-            alt=""
-          />
-        
-        </div>
-
-        {/* items 3 */}
-
-        <div className=" item-1 rounded-md flex flex-col gap-3 justify-start items-start h-[fixed] p-2">
-          <img
-            src="https://ncube.com/wp-content/uploads/2020/02/Top-8-Software-Development-Models.jpg"
-            className=" shadow-xl"
-            alt=""
-          />
-         
-        </div>
-      </section>
+                <div className=" hidden  md:flex absolute   transform scale-x-[-1]  inset-0 bg-black opacity-0 hover:opacity-100 transition-opacity duration-500 flex justify-center items-center">
+                  <article className="text-white flex flex-col gap-2 text-center transform scale-x-[-1]">
+                    <h1 className="text-sm font-semibold font-dm md:text-sm">
+                      {newsItem.heading}
+                    </h1>
+                    <h5 className="text-[12px] font-normal text-white md:text-sm">
+                      {newsItem.description}
+                    </h5>
+                    <h6 className="text-white text-[12px]">
+                      {newsItem.content}
+                    </h6>
+                    <a href={newsItem.url} className="text-blue-500 underline">
+                      Read more
+                    </a>
+                  </article>
+                </div>
+              </div>
+            ))}
+          </section>
+        </>
+      )}
     </div>
   );
 };
 
-export default insights;
+export default Insights2;
