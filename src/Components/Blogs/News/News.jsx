@@ -55,12 +55,12 @@ function News() {
           style={{
             background: news.border,
           }}
-          className="h-[fixed] w-[350px]    shadow-xl  justify-start items-start flex flex-col md:flex-row gap-8      
+          className="h-[fixed] w-[340px]    shadow-xl  justify-start items-start flex flex-col md:flex-row gap-8      
           
           lg:h-[60vh] lg:w-[150vh]  lg:pl-2 lg:pr-2         md:h-[30vh] md:w-[75vh]  md:pl-2 md:pr-2  "
         >
           <section
-            className="image-container   h-[300px] w-[350px] flex flex-col justify-center items-center mx-auto
+            className="image-container   h-[300px] w-[340px] flex flex-col justify-center items-center mx-auto
           lg:h-[60vh] lg:w-[60%] lg:justify-start lg:items-start lg:mx-0
           md:h-[30vh] md:w-[60%] md:justify-start md:items-start md:mx-0
          "
